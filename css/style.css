@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+
+    color: white;
+}
+
+body header p.welcome {
+    text-align: center; font-size: 50px; padding-top: 20px; margin-top: 0em; margin-bottom: 0px;
+} 
+
+body header p#name {
+    text-align: center; font-size: 40px; font-style: oblique; padding-top: 0px; margin-top: 0px;
+}
+
+body main em {
+    font-size: 30px; text-decoration: none; color: red; 
+}
+
+body main p {
+    font-style: normal; font-size: 20px; padding-left: 20px; padding-right: 20px;
+}
+
+ul {
+    font-style: normal; font-size: 20px;
+}
+
+footer {
+    text-align: center; padding-top: 60px;
+}
