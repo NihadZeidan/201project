@@ -27,3 +27,16 @@ ul {
 footer {
     text-align: center; padding-top: 60px;
 }
+nav {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    border-width: 2px; border-color: red; border-style: groove; border-radius: 100%; padding: 50px;
+    margin: 20px; text-align: center;
+
+}
+nav li a { 
+    text-decoration: none;
+}
+
