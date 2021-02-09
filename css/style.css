@@ -40,3 +40,10 @@ nav li a {
     text-decoration: none;
 }
 
+body main ul.skills p {
+
+    margin-top: 60px;
+}
+ul.skills li {
+    list-style:square; padding: 3px;
+}
