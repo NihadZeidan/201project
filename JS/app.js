@@ -130,6 +130,7 @@ switch (height.toLocaleLowerCase()) {
         break;
 }
 
+alert('Welcome to my page ' + userName);
 
 let exactHeight = prompt('What do you think my exact height is? (insert a number)');
 let check = true;
