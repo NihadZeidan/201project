@@ -58,7 +58,7 @@ switch (color.toLocaleLowerCase()) {
 }}
 color ();
 
-let hobby = prompt('Is writing my favourite hobby?');
+ function hobby (){let hobby = prompt('Is writing my favourite hobby?');
 // console.log(hobby); 
 
 while (hobby !== 'yes' && hobby !== 'y' && hobby !== 'no' && hobby !== 'n') {
@@ -80,8 +80,8 @@ switch (hobby.toLocaleLowerCase()) {
     default:
         alert('please enter only yes/no or y/n');
         break;
-}
-
+}}
+hobby ();
 
 let sport = prompt('Is football my favourite sport?');
 // console.log(sport);
