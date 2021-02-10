@@ -137,7 +137,7 @@ myheight();
 alert('Welcome to my page ' + userName);
 
 
-let exactHeight = prompt('What do you think my exact height is? (insert a number)');
+ function queHeight(){ let exactHeight = prompt('What do you think my exact height is? (insert a number)');
 let check = true;
 let attempsAvailable = 3
 
@@ -159,7 +159,8 @@ for (let i = 0; i <= 2; i++) {
 
 if (check == true) {
     alert('In case you did not get it, the correct answer is 190 cm :D ');
-}
+}}
+queHeight();
 
 
 let smartPhones = ['samsung', 'google', 'apple', 'nokia'];
