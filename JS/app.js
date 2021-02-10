@@ -33,7 +33,7 @@ education ();
 
 
 
-let color = prompt('Is black my favourite color?');
+ function color (){let color = prompt('Is black my favourite color?');
 // console.log(color);
 
 while (color !== 'yes' && color !== 'y' && color !== 'no' && color !== 'n') {
@@ -55,7 +55,8 @@ switch (color.toLocaleLowerCase()) {
     default:
         alert('please enter only yes/no or y/n');
         break;
-}
+}}
+color ();
 
 let hobby = prompt('Is writing my favourite hobby?');
 // console.log(hobby); 
