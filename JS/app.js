@@ -163,7 +163,7 @@ if (check == true) {
 queHeight();
 
 
-let smartPhones = ['samsung', 'google', 'apple', 'nokia'];
+function quesmartPhones(){ let smartPhones = ['samsung', 'google', 'apple', 'nokia'];
 let Question = prompt('What are my favourate smartphones?');
 let check2 = true;
 let ii = 5
@@ -188,8 +188,8 @@ for (let i = 0; i <= 4; i++) {
 
 if (check2 == true) {
     alert('in case you did not know the answer, it was samsung, apple, google or nokia')
-}
-
+}}
+quesmartPhones();
 
 
 alert(userName + ' you got ' + score + ' out of 7')
