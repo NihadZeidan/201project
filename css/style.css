@@ -28,12 +28,14 @@ footer {
     text-align: center; padding-top: 60px;
 }
 nav {
-    text-align: center;
+    text-align: center; 
 }
+
+
 nav ul li {
     display: inline-block;
-    border-width: 2px; border-color: red; border-style: groove; border-radius: 100%; padding: 50px;
-    margin: 20px; text-align: center;
+    border-width: 2px; border-color: red; border-style: groove; padding: 15px;
+    margin: 50px; text-align: center;
 
 }
 nav li a { 
