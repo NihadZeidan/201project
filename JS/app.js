@@ -5,7 +5,7 @@ alert('Nice to see you here ' + userName + ', Welcome!');
 alert('We will play a gussing yes/no game, before you enter my page. I hope you\'re ready and excited!');
 
 
- function education (){let education = prompt('Am I studied Business in my bechlor degree?');
+ function education(){let education = prompt('Am I studied Business in my bechlor degree?');
 // console.log(education);
 
 while (education !== 'yes' && education !== 'y' && education !== 'no' && education !== 'n') {
@@ -58,7 +58,7 @@ switch (color.toLocaleLowerCase()) {
 }}
 color ();
 
- function hobby (){let hobby = prompt('Is writing my favourite hobby?');
+ function favhobby (){let hobby = prompt('Is writing my favourite hobby?');
 // console.log(hobby); 
 
 while (hobby !== 'yes' && hobby !== 'y' && hobby !== 'no' && hobby !== 'n') {
@@ -81,9 +81,9 @@ switch (hobby.toLocaleLowerCase()) {
         alert('please enter only yes/no or y/n');
         break;
 }}
-hobby ();
+favhobby ();
 
-let sport = prompt('Is football my favourite sport?');
+function favsport(){let sport = prompt('Is football my favourite sport?');
 // console.log(sport);
 
 while (sport !== 'yes' && sport !== 'y' && sport !== 'no' && sport !== 'n') {
@@ -105,10 +105,11 @@ switch (sport.toLocaleLowerCase()) {
     default:
         alert('please enter only yes/no or y/n');
         break;
-}
+}}
+favsport();
 
 
-let height = prompt('Is my height more than 180cm? ');
+ function myheight (){let height = prompt('Is my height more than 180cm? ');
 // console.log(height);
 
 
@@ -131,9 +132,10 @@ switch (height.toLocaleLowerCase()) {
     default:
         alert('please enter only yes/no or y/n');
         break;
-}
-
+}}
+myheight();
 alert('Welcome to my page ' + userName);
+
 
 let exactHeight = prompt('What do you think my exact height is? (insert a number)');
 let check = true;
