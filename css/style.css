@@ -33,11 +33,17 @@ nav {
 
 
 nav ul li {
+    
     display: inline-block;
     border-width: 2px; border-color: red; border-style: groove; padding: 15px;
     margin: 50px; text-align: center;
 
 }
+
+nav ul :hover {
+    background-color: red;
+}
+
 nav li a { 
     text-decoration: none;
 }
